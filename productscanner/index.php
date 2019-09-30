@@ -1,6 +1,6 @@
 <?php
 $m2Path = __DIR__ . DIRECTORY_SEPARATOR	.	'app/etc/env.php';
-//if(!file_exists($m2Path)) exit("M2 is necessary! Check your installation please!");
+if(!file_exists($m2Path)) exit("M2 is necessary! Check your installation please!");
 ?>
 <link  rel="stylesheet" type="text/css"  media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <link  rel="stylesheet" type="text/css"  media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
