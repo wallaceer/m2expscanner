@@ -1,2 +1,4 @@
 # m2expscanner
-magento 2 external product scanner
+Magento 2 External Product Scanner
+
+Read productscanner/README.md
